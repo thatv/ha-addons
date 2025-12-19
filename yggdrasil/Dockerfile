@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-#FROM $BUILD_FROM
+FROM $BUILD_FROM
 
 LABEL That Vasket <thatv+codeforge@dismail.de>
 
