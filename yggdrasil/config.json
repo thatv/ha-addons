@@ -1,0 +1,15 @@
+{
+  "name": "Yggdrasil Network",
+  "version": "0.5.12-r11",
+  "slug": "yggdrasil",
+  "stage": "experimental",
+  "description": "A Yggdrasil addon for Homeassistant. Yggdrasil is an experimental encrypted overlay P2P network",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "host_network": true,
+  "apparmor": false,
+  "host_dbus": true;
+  "full_access": true,
+  "privileged": ["NET_ADMIN"],
+  "devices": "/dev/net/tun"
+}
