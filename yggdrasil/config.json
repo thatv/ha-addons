@@ -11,6 +11,6 @@
   "apparmor": false,
   "host_dbus": true,
   "full_access": true,
-  "privileged": ["NET_ADMIN"],
+  "privileged": ["NET_ADMIN", "SYS_ADMIN"],
   "devices": ["/dev/net/tun"]
 }
