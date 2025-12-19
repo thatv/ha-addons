@@ -6,7 +6,7 @@
   "description": "A Yggdrasil addon for Homeassistant. Yggdrasil is an experimental encrypted overlay P2P network",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/thatv/HA-Addons/tree/main/yggdrasil",
-  "startup": "services",
+  "startup": "system",
   "host_network": true,
   "apparmor": false,
   "host_dbus": true,
